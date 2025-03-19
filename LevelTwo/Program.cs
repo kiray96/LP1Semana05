@@ -1,12 +1,18 @@
 ﻿using System;
+using Spectre.Console;
+
 
 namespace LevelTwo
 {
-    public class Program
+    public static class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
-            Console.WriteLine("Hello LP1!");
+            CanvasImage image = new CanvasImage("tux.jpg");
+
+            image.MaxWidth(20);
+
+            AnsiConsole.Write(image);
         }
     }
 }
