@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace LevelOne
 {
@@ -11,6 +12,11 @@ namespace LevelOne
         private static void Main(string[] args)
         {
             Console.WriteLine("Hello LP1!");
+        }
+
+        private static void Method(int i)
+        {
+
         }
     }
 }
