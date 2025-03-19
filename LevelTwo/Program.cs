@@ -6,11 +6,14 @@ namespace LevelTwo
 {
     public static class Program
     {
-        private static void Main()
+        private static void Main(string[] args)
         {
-            CanvasImage image = new CanvasImage("tux.jpg");
+            string imagePath = args[0];
 
-            image.MaxWidth(20);
+            CanvasImage image = new CanvasImage(imagePath);
+
+            int width = Convert.ToInt32(args[1]);
+            image.MaxWidth(width);
 
             AnsiConsole.Write(image);
         }
