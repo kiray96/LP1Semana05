@@ -14,6 +14,10 @@ namespace LevelOne
             Console.WriteLine("Hello LP1!");
         }
 
+        /// <summary>
+        /// New Method
+        /// </summary>
+        /// <param name="i">int</param>
         private static void Method(int i)
         {
 
