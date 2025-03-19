@@ -12,7 +12,11 @@ namespace LevelOne
         private static void Main(string[] args)
         {
             Console.WriteLine("Hello LP1!");
+<<<<<<< HEAD
             Console.WriteLine("Bad day?");
+=======
+            Console.WriteLine("Nice day!");
+>>>>>>> extra-print
             Console.WriteLine("Bye!");
 
         }
