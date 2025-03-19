@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 
 namespace LevelOne
 {
-    public class Program
+    public class MainIsHere
     {
         /// <summary>
         /// This method prints the line "Hello LP1!"
