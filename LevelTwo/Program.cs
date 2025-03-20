@@ -1,5 +1,6 @@
 ﻿using System;
 using Spectre.Console;
+using SoGoodLib;
 
 
 namespace LevelTwo
@@ -8,6 +9,7 @@ namespace LevelTwo
     {
         private static void Main(string[] args)
         {
+            Console.WriteLine(SoGoodLib.SoGoodLib.SoGoodMethod());
 
             string imagePath;
             int width;

@@ -2,8 +2,12 @@
 
 namespace SoGoodLib
 {
-    public class Class1
+    public class SoGoodLib
     {
+        public static string SoGoodMethod()
+        {
+            return "I came from another project!";
+        }
 
     }
 }
